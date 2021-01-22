@@ -7,7 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="new" />
+        <module name="Tack_One" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="new" target="15" />
+      <module name="Tack_One" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
